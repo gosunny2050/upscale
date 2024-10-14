@@ -11,5 +11,14 @@
   "description": "",
   "dependencies": {
     "upscaler": "^1.0.0-beta.19"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8"
   }
+  {
+  "scripts": {
+    "dev": "vite"
+  }
+}
+
 }
