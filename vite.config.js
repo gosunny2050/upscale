@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite'
-import ghPages from 'vite-plugin-gh-pages'
 
 export default defineConfig({
-  plugins: [ghPages()],
   build: {
-    outDir: 'dist',
+    outDir: 'dist',  // 打包输出目录
   },
-  base: '/upscaler-app/'  // 对应 GitHub Pages 的仓库名
+  base: '/upscale/'  // 指定 GitHub Pages 仓库名
 })
+
+
 
